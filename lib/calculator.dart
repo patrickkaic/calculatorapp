@@ -79,7 +79,7 @@ class _CalculatorState extends State<Calculator> {
     );
   }
 
-  Widget button(String text) {
+  Widget button(String text)  {
     return Container(
       margin: const EdgeInsets.all(8),
       child: MaterialButton(
